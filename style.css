@@ -1,0 +1,87 @@
+.container{
+  margin-top: 65px;
+ margin-left: 20%;
+display: flex;
+justify-content: center;
+background: #000;
+width: 900px;
+border-radius: 10px;
+opacity: .5;
+}
+.container h2{
+font-family: monospace;
+text-transform: uppercase;
+color: beige;
+}
+.container input{
+  background: #000;
+  border:none;
+  outline: none;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 25px;
+text-transform: uppercase;
+  color: beige;
+ margin-right: -185px;
+}
+/* .container input::selection{
+  background:none;
+} */
+.container .btn{
+  margin: 10px;
+  background: green;
+  font-family: monospace;
+text-transform: uppercase;
+color: beige;
+border: none;
+}
+
+
+.container .tooltip {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  .container .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .container .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green transparent transparent transparent;
+  }
+  
+  .container .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  .container .tooltip .btn{
+    height: 40px;
+    width: 100px;
+    background: green;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: beige;
+    border: none;
+}
+
